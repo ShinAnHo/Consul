@@ -1,0 +1,47 @@
+2021-05-30T15:07:36.239+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:49466 error="read tcp 127.0.0.1:8300->127.0.0.1:49466: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-05-30T18:28:41.125+0700 [WARN]  agent: yamux: failed to send ping reply: session shutdown
+2021-05-30T19:35:48.596+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:49288 error="read tcp 127.0.0.1:8300->127.0.0.1:49288: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-05-30T19:35:49.207+0700 [ERROR] agent: yamux: Failed to write header: write tcp 127.0.0.1:49288->127.0.0.1:8300: use of closed network connection
+2021-05-31T09:03:18.623+0700 [WARN]  agent: yamux: failed to send ping reply: session shutdown
+2021-05-31T10:25:08.014+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-31T10:25:08.016+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-31T10:25:08.017+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-31T10:25:08.166+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-31T10:25:08.168+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-31T10:25:08.171+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-31T11:09:32.226+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-31T11:09:32.378+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-31T11:09:32.394+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-31T11:09:32.505+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-31T11:09:32.536+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-31T11:09:32.666+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-31T13:25:56.422+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-31T13:25:56.586+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-31T13:25:57.732+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-31T13:25:57.889+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-31T13:25:58.255+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-31T13:25:58.374+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-31T13:27:59.381+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-31T13:27:59.533+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-31T13:28:00.997+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-31T13:28:01.103+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-31T13:28:01.352+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-31T13:28:01.491+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-31T13:43:26.058+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-31T13:43:26.148+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-31T13:43:26.178+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-31T13:43:26.224+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-31T13:43:26.351+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-31T13:43:26.352+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-31T14:04:13.335+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-31T14:04:13.502+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-31T14:04:14.888+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-31T14:04:15.034+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-31T14:04:15.333+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-31T14:04:15.475+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-31T14:43:32.782+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-31T14:43:33.014+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-31T14:43:35.448+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-31T14:43:35.538+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-31T14:43:35.819+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-31T14:43:36.073+0700 [INFO]  agent: Synced service: service=IdentityServer

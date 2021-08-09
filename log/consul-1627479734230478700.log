@@ -1,0 +1,85 @@
+2021-07-28T20:42:14.231+0700 [WARN]  agent: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-07-28T20:42:14.232+0700 [WARN]  agent: bootstrap = true: do not enable unless necessary
+2021-07-28T20:42:14.278+0700 [WARN]  agent.auto_config: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-07-28T20:42:14.278+0700 [WARN]  agent.auto_config: bootstrap = true: do not enable unless necessary
+2021-07-28T20:42:14.303+0700 [INFO]  agent.server.raft: restored from snapshot: id=9-213004-1626924887758
+2021-07-28T20:42:14.330+0700 [INFO]  agent.server.raft: initial configuration: index=1 servers="[{Suffrage:Voter ID:f8ad9184-9bbb-d25e-6dc2-bd2030b111f1 Address:127.0.0.1:8300}]"
+2021-07-28T20:42:14.331+0700 [INFO]  agent.server.raft: entering follower state: follower="Node at 127.0.0.1:8300 [Follower]" leader=
+2021-07-28T20:42:14.334+0700 [INFO]  agent.server.serf.wan: serf: EventMemberJoin: MSI.microservice 127.0.0.1
+2021-07-28T20:42:14.334+0700 [WARN]  agent.server.serf.wan: serf: Failed to re-join any previously known node
+2021-07-28T20:42:14.334+0700 [INFO]  agent.server.serf.lan: serf: EventMemberJoin: MSI 127.0.0.1
+2021-07-28T20:42:14.334+0700 [INFO]  agent.router: Initializing LAN area manager
+2021-07-28T20:42:14.334+0700 [WARN]  agent.server.serf.lan: serf: Failed to re-join any previously known node
+2021-07-28T20:42:14.335+0700 [INFO]  agent.server: Adding LAN server: server="MSI (Addr: tcp/127.0.0.1:8300) (DC: microservice)"
+2021-07-28T20:42:14.335+0700 [INFO]  agent.server: Handled event for server in area: event=member-join server=MSI.microservice area=wan
+2021-07-28T20:42:14.341+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=udp
+2021-07-28T20:42:14.341+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=tcp
+2021-07-28T20:42:14.342+0700 [INFO]  agent: Starting server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-07-28T20:42:14.343+0700 [WARN]  agent: DEPRECATED Backwards compatibility with pre-1.9 metrics enabled. These metrics will be removed in a future version of Consul. Set `telemetry { disable_compat_1.9 = true }` to disable them.
+2021-07-28T20:42:14.343+0700 [INFO]  agent: started state syncer
+2021-07-28T20:42:20.048+0700 [WARN]  agent.server.raft: heartbeat timeout reached, starting election: last-leader=
+2021-07-28T20:42:20.048+0700 [INFO]  agent.server.raft: entering candidate state: node="Node at 127.0.0.1:8300 [Candidate]" term=12
+2021-07-28T20:42:20.053+0700 [INFO]  agent.server.raft: election won: tally=1
+2021-07-28T20:42:20.053+0700 [INFO]  agent.server.raft: entering leader state: leader="Node at 127.0.0.1:8300 [Leader]"
+2021-07-28T20:42:20.053+0700 [INFO]  agent.server: cluster leadership acquired
+2021-07-28T20:42:20.053+0700 [INFO]  agent.server: New leader elected: payload=MSI
+2021-07-28T20:42:20.137+0700 [INFO]  agent.leader: started routine: routine="federation state anti-entropy"
+2021-07-28T20:42:20.137+0700 [INFO]  agent.leader: started routine: routine="federation state pruning"
+2021-07-28T20:42:20.139+0700 [INFO]  agent.leader: started routine: routine="intermediate cert renew watch"
+2021-07-28T20:42:20.139+0700 [INFO]  agent.leader: started routine: routine="CA root pruning"
+2021-07-28T20:42:20.312+0700 [INFO]  agent: Synced node info
+2021-07-28T20:42:41.214+0700 [INFO]  agent: Newer Consul version available: new_version=1.10.1 current_version=1.9.5
+2021-07-28T20:42:42.763+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-28T20:42:42.963+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-28T20:42:44.096+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-28T20:42:44.325+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-28T20:42:44.458+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-28T20:42:44.675+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-28T20:49:02.471+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-28T20:49:02.704+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-28T20:49:03.655+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-28T20:49:03.803+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-28T20:49:04.180+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-28T20:49:04.346+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-29T15:11:36.576+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-29T15:11:37.151+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-29T15:11:39.255+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-29T15:11:39.464+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-29T15:11:40.155+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-29T15:11:40.385+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-29T15:26:14.053+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-29T15:26:14.227+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-29T15:26:15.184+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-29T15:26:15.416+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-29T15:26:15.806+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-29T15:26:15.938+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-29T15:34:19.428+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-29T15:34:19.586+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-29T15:34:20.648+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-29T15:34:20.805+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-29T15:34:21.028+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-29T15:34:21.199+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-29T17:37:21.002+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-29T17:37:21.179+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-29T17:37:22.426+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-29T17:37:22.534+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-29T17:37:22.704+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-29T17:37:22.812+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-29T19:08:20.298+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-29T19:08:20.449+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-29T19:08:21.612+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-29T19:08:21.736+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-29T19:08:21.854+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-29T19:08:22.019+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-29T19:15:22.899+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-29T19:15:23.049+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-29T19:15:23.951+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-29T19:15:24.076+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-29T19:15:24.277+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-29T19:15:24.384+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-29T19:20:14.452+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-29T19:20:14.601+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-29T19:20:15.723+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-29T19:20:15.822+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-29T19:20:16.167+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-29T19:20:16.339+0700 [INFO]  agent: Synced service: service=IdentityServer

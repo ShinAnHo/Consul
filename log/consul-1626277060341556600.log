@@ -1,0 +1,10 @@
+2021-07-14T22:37:40.341+0700 [INFO]  agent: Newer Consul version available: new_version=1.10.0 current_version=1.9.5
+2021-07-15T08:48:51.585+0700 [WARN]  agent: error getting server health from server: server=MSI error="context deadline exceeded"
+2021-07-15T08:48:51.597+0700 [ERROR] agent: yamux: Failed to write header: write tcp 127.0.0.1:58497->127.0.0.1:8300: use of closed network connection
+2021-07-15T17:39:52.853+0700 [INFO]  agent.fsm: snapshot created: duration=2.9991ms
+2021-07-15T17:39:52.854+0700 [INFO]  agent.server.raft: starting snapshot up to: index=196620
+2021-07-15T17:39:52.854+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\8-196620-1626345592854.tmp
+2021-07-15T17:39:52.874+0700 [INFO]  agent.server.snapshot: reaping snapshot: path=D:\Software\consul\data\raft\snapshots\8-163850-1625368920497
+2021-07-15T17:39:52.876+0700 [INFO]  agent.server.raft: compacting logs: from=169995 to=186380
+2021-07-15T17:39:52.921+0700 [INFO]  agent.server.raft: snapshot complete up to: index=196620
+2021-07-15T21:17:26.919+0700 [INFO]  agent: Newer Consul version available: new_version=1.10.0 current_version=1.9.5

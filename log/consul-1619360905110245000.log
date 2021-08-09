@@ -1,0 +1,31 @@
+2021-04-25T21:28:24.592+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:49592 error="read tcp 127.0.0.1:8300->127.0.0.1:49592: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-04-26T09:11:37.500+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:53546 error="read tcp 127.0.0.1:8300->127.0.0.1:53546: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-04-26T14:12:08.631+0700 [WARN]  agent: Failed to deregister service: service=BmiSampleAdmin error="Service "BmiSampleAdmin" does not exist"
+2021-04-26T14:12:08.905+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-26T14:13:18.982+0700 [ERROR] agent.http: Request error: method=GET url=/v1/discovery-chain/BmiSampleAdmin?dc=microservice from=127.0.0.1:64111 error="Connect must be enabled in order to use this endpoint"
+2021-04-26T14:13:27.091+0700 [ERROR] agent.http: Request error: method=GET url=/v1/connect/intentions?dc=microservice&filter=SourceName%20%3D%3D%20%22BmiSampleAdmin%22%20or%20DestinationName%20%3D%3D%20%22BmiSampleAdmin%22%20or%20SourceName%20%3D%3D%20%22*%22%20or%20DestinationName%20%3D%3D%20%22*%22 from=127.0.0.1:64117 error="Connect must be enabled in order to use this endpoint"
+2021-04-26T14:13:39.025+0700 [ERROR] agent.http: Request error: method=GET url=/v1/connect/intentions?dc=microservice from=127.0.0.1:64125 error="Connect must be enabled in order to use this endpoint"
+2021-04-26T17:03:20.841+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-26T17:03:20.845+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-26T17:05:45.077+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-26T17:05:45.331+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-26T17:07:20.258+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-26T17:07:20.444+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-26T17:08:23.090+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-26T17:08:23.368+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-26T17:18:40.333+0700 [INFO]  agent: Caught: signal=interrupt
+2021-04-26T17:18:40.333+0700 [INFO]  agent: Graceful shutdown disabled. Exiting
+2021-04-26T17:18:40.334+0700 [INFO]  agent: Requesting shutdown
+2021-04-26T17:18:40.334+0700 [INFO]  agent.server: shutting down server
+2021-04-26T17:18:40.335+0700 [WARN]  agent.server.serf.lan: serf: Shutdown without a Leave
+2021-04-26T17:18:40.336+0700 [WARN]  agent.server.serf.wan: serf: Shutdown without a Leave
+2021-04-26T17:18:40.337+0700 [INFO]  agent.router.manager: shutting down
+2021-04-26T17:18:40.337+0700 [INFO]  agent.router.manager: shutting down
+2021-04-26T17:18:40.339+0700 [INFO]  agent: consul server down
+2021-04-26T17:18:40.339+0700 [INFO]  agent: shutdown complete
+2021-04-26T17:18:40.339+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=tcp
+2021-04-26T17:18:40.340+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=udp
+2021-04-26T17:18:40.340+0700 [INFO]  agent: Stopping server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-04-26T17:18:40.845+0700 [INFO]  agent: Waiting for endpoints to shut down
+2021-04-26T17:18:40.845+0700 [INFO]  agent: Endpoints down
+2021-04-26T17:18:40.845+0700 [INFO]  agent: Exit code: code=1

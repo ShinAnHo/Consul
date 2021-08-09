@@ -1,0 +1,9 @@
+2021-08-07T21:06:08.796+0700 [WARN]  agent: error getting server health from server: server=MSI error="context deadline exceeded"
+2021-08-07T21:06:51.912+0700 [INFO]  agent.fsm: snapshot created: duration=2.075ms
+2021-08-07T21:06:51.913+0700 [INFO]  agent.server.raft: starting snapshot up to: index=245773
+2021-08-07T21:06:51.914+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\12-245773-1628345211914.tmp
+2021-08-07T21:06:51.942+0700 [INFO]  agent.server.snapshot: reaping snapshot: path=D:\Software\consul\data\raft\snapshots\9-213004-1626924887758
+2021-08-07T21:06:51.944+0700 [INFO]  agent.server.raft: compacting logs: from=219150 to=235533
+2021-08-07T21:06:52.018+0700 [INFO]  agent.server.raft: snapshot complete up to: index=245773
+2021-08-08T12:06:05.655+0700 [ERROR] agent.server: yamux: Failed to write header: write tcp 127.0.0.1:8300->127.0.0.1:58286: use of closed network connection
+2021-08-08T19:41:19.254+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"

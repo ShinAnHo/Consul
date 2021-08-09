@@ -1,0 +1,1 @@
+2021-07-31T12:06:14.637+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"

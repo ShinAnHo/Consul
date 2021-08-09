@@ -1,0 +1,16 @@
+2021-05-14T00:26:04.976+0700 [INFO]  agent: Caught: signal=terminated
+2021-05-14T00:26:04.977+0700 [INFO]  agent: Graceful shutdown disabled. Exiting
+2021-05-14T00:26:04.978+0700 [INFO]  agent: Requesting shutdown
+2021-05-14T00:26:04.979+0700 [INFO]  agent.server: shutting down server
+2021-05-14T00:26:04.980+0700 [WARN]  agent.server.serf.lan: serf: Shutdown without a Leave
+2021-05-14T00:26:04.981+0700 [WARN]  agent.server.serf.wan: serf: Shutdown without a Leave
+2021-05-14T00:26:04.982+0700 [INFO]  agent.router.manager: shutting down
+2021-05-14T00:26:04.982+0700 [INFO]  agent.router.manager: shutting down
+2021-05-14T00:26:04.985+0700 [INFO]  agent: consul server down
+2021-05-14T00:26:04.985+0700 [INFO]  agent: shutdown complete
+2021-05-14T00:26:04.985+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=tcp
+2021-05-14T00:26:04.986+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=udp
+2021-05-14T00:26:04.986+0700 [INFO]  agent: Stopping server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-05-14T00:26:05.495+0700 [INFO]  agent: Waiting for endpoints to shut down
+2021-05-14T00:26:05.495+0700 [INFO]  agent: Endpoints down
+2021-05-14T00:26:05.495+0700 [INFO]  agent: Exit code: code=1

@@ -1,0 +1,25 @@
+2021-07-29T22:40:01.100+0700 [INFO]  agent: Newer Consul version available: new_version=1.10.1 current_version=1.9.5
+2021-07-30T09:34:09.500+0700 [WARN]  agent: error getting server health from server: server=MSI error="context deadline exceeded"
+2021-07-30T12:57:31.343+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-30T12:57:31.961+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-30T12:57:33.747+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-30T12:57:34.045+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-30T12:57:34.901+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-30T14:14:05.846+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-30T14:14:06.042+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-30T14:14:07.283+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-30T14:14:07.392+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-30T14:14:07.593+0700 [WARN]  agent: Failed to deregister service: service=IdentityServer error="Service "IdentityServer" does not exist"
+2021-07-30T14:14:07.707+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-30T15:54:17.898+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-30T15:54:18.076+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-30T15:54:19.036+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-30T15:54:19.192+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-30T15:54:19.413+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-30T15:54:19.551+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-30T15:55:34.666+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-30T15:55:34.810+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-30T15:55:35.907+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-30T15:55:36.089+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-30T15:55:36.324+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-30T15:55:36.504+0700 [INFO]  agent: Synced service: service=IdentityServer

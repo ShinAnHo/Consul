@@ -1,0 +1,8 @@
+2021-05-11T20:15:18.318+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"
+2021-05-12T10:39:12.327+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:65178 error="read tcp 127.0.0.1:8300->127.0.0.1:65178: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-05-12T10:39:12.327+0700 [ERROR] agent.server: yamux: Failed to write header: write tcp 127.0.0.1:8300->127.0.0.1:65178: wsasend: An existing connection was forcibly closed by the remote host.
+2021-05-12T12:37:03.364+0700 [INFO]  agent.fsm: snapshot created: duration=3.051ms
+2021-05-12T12:37:03.364+0700 [INFO]  agent.server.raft: starting snapshot up to: index=32771
+2021-05-12T12:37:03.366+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\4-32771-1620797823365.tmp
+2021-05-12T12:37:03.392+0700 [INFO]  agent.server.raft: compacting logs: from=6145 to=22531
+2021-05-12T12:37:03.428+0700 [INFO]  agent.server.raft: snapshot complete up to: index=32771

@@ -1,0 +1,14 @@
+2021-05-26T19:34:02.665+0700 [INFO]  agent.fsm: snapshot created: duration=0s
+2021-05-26T19:34:02.667+0700 [INFO]  agent.server.raft: starting snapshot up to: index=65540
+2021-05-26T19:34:02.667+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\5-65540-1622032442667.tmp
+2021-05-26T19:34:02.677+0700 [INFO]  agent.server.snapshot: reaping snapshot: path=D:\Software\consul\data\raft\snapshots\4-32771-1620797823365
+2021-05-26T19:34:02.677+0700 [INFO]  agent.server.raft: compacting logs: from=38916 to=55300
+2021-05-26T19:34:02.707+0700 [INFO]  agent.server.raft: snapshot complete up to: index=65540
+2021-05-26T23:05:49.639+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:59843 error="read tcp 127.0.0.1:8300->127.0.0.1:59843: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-05-26T23:05:50.348+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"
+2021-05-27T16:52:49.710+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-27T16:52:49.712+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-27T16:52:49.740+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-27T16:52:49.896+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-27T16:52:49.898+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-27T16:52:49.902+0700 [INFO]  agent: Synced service: service=GeneralApi

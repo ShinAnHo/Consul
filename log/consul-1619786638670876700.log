@@ -1,0 +1,7 @@
+2021-04-30T19:43:58.669+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-04-30T19:43:58.839+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-04-30T19:53:26.985+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-04-30T19:53:27.183+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-04-30T19:57:26.244+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-04-30T19:57:26.386+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-01T11:09:24.190+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:56255 error="read tcp 127.0.0.1:8300->127.0.0.1:56255: wsarecv: An existing connection was forcibly closed by the remote host."

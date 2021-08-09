@@ -1,0 +1,8 @@
+//Installation
+Download consul : https://www.consul.io/downloads
+Place exe & files in : D:\Software\consul\
+Control Panel -> Environment Variable -> D:\Software\consul\
+(placing in another directory will need adjustment in config directory)
+
+// install as windows service
+sc.exe create "Consul" binPath= "D:\\Software\\consul\\consul.exe agent -config-dir=D:\\Software\\consul\\config" start= auto

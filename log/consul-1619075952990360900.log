@@ -1,0 +1,30 @@
+2021-04-22T14:19:12.993+0700 [WARN]  agent: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-04-22T14:19:12.993+0700 [WARN]  agent: bootstrap = true: do not enable unless necessary
+2021-04-22T14:19:13.035+0700 [WARN]  agent.auto_config: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-04-22T14:19:13.035+0700 [WARN]  agent.auto_config: bootstrap = true: do not enable unless necessary
+2021-04-22T14:19:13.044+0700 [INFO]  agent.server.raft: initial configuration: index=1 servers="[{Suffrage:Voter ID:f8ad9184-9bbb-d25e-6dc2-bd2030b111f1 Address:127.0.0.1:8300}]"
+2021-04-22T14:19:13.044+0700 [INFO]  agent.server.raft: entering follower state: follower="Node at 127.0.0.1:8300 [Follower]" leader=
+2021-04-22T14:19:13.045+0700 [INFO]  agent.server.serf.wan: serf: EventMemberJoin: MSI.microservice 127.0.0.1
+2021-04-22T14:19:13.046+0700 [INFO]  agent.server.serf.lan: serf: EventMemberJoin: MSI 127.0.0.1
+2021-04-22T14:19:13.046+0700 [INFO]  agent.router: Initializing LAN area manager
+2021-04-22T14:19:13.046+0700 [INFO]  agent.server: Adding LAN server: server="MSI (Addr: tcp/127.0.0.1:8300) (DC: microservice)"
+2021-04-22T14:19:13.046+0700 [INFO]  agent.server: Handled event for server in area: event=member-join server=MSI.microservice area=wan
+2021-04-22T14:19:13.046+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=udp
+2021-04-22T14:19:13.046+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=tcp
+2021-04-22T14:19:13.046+0700 [INFO]  agent: Starting server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-04-22T14:19:13.046+0700 [WARN]  agent: DEPRECATED Backwards compatibility with pre-1.9 metrics enabled. These metrics will be removed in a future version of Consul. Set `telemetry { disable_compat_1.9 = true }` to disable them.
+2021-04-22T14:19:13.046+0700 [INFO]  agent: started state syncer
+2021-04-22T14:19:15.919+0700 [WARN]  agent.server.rpc: RPC request for DC is currently failing as no path was found: datacenter=dctest method=Internal.ServiceDump
+2021-04-22T14:19:15.919+0700 [ERROR] agent.http: Request error: method=GET url=/v1/internal/ui/services?dc=dctest&index=7 from=127.0.0.1:57832 error="No path to datacenter"
+2021-04-22T14:19:20.069+0700 [ERROR] agent.anti_entropy: failed to sync remote state: error="No cluster leader"
+2021-04-22T14:19:22.563+0700 [WARN]  agent.server.raft: heartbeat timeout reached, starting election: last-leader=
+2021-04-22T14:19:22.563+0700 [INFO]  agent.server.raft: entering candidate state: node="Node at 127.0.0.1:8300 [Candidate]" term=2
+2021-04-22T14:19:22.568+0700 [INFO]  agent.server.raft: election won: tally=1
+2021-04-22T14:19:22.568+0700 [INFO]  agent.server.raft: entering leader state: leader="Node at 127.0.0.1:8300 [Leader]"
+2021-04-22T14:19:22.568+0700 [INFO]  agent.server: cluster leadership acquired
+2021-04-22T14:19:22.568+0700 [INFO]  agent.server: New leader elected: payload=MSI
+2021-04-22T14:19:22.571+0700 [INFO]  agent.leader: started routine: routine="federation state anti-entropy"
+2021-04-22T14:19:22.572+0700 [INFO]  agent.leader: started routine: routine="federation state pruning"
+2021-04-22T14:19:22.572+0700 [INFO]  agent.server: member joined, marking health alive: member=MSI
+2021-04-22T14:19:22.971+0700 [INFO]  agent.server: federation state anti-entropy synced
+2021-04-22T14:19:23.497+0700 [INFO]  agent: Synced node info

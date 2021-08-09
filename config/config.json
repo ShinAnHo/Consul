@@ -1,0 +1,14 @@
+{
+  "datacenter": "microservice",
+  "data_dir": "D:\\Software\\consul\\data",
+  "log_level": "INFO",
+  "node_name": "MSI",
+  "server": true,
+  "bind_addr": "127.0.0.1",
+  "bootstrap": true,
+  "ui": true,
+  "log_file": "D:\\Software\\consul\\log\\consul.log",
+  "connect": {
+     "enabled": true
+  }
+}

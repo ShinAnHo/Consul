@@ -1,0 +1,4 @@
+2021-05-07T15:52:43.374+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"
+2021-05-07T21:05:05.500+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:52421 error="read tcp 127.0.0.1:8300->127.0.0.1:52421: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-05-07T21:05:05.500+0700 [ERROR] agent.server: yamux: Failed to write header: write tcp 127.0.0.1:8300->127.0.0.1:52421: wsasend: An existing connection was forcibly closed by the remote host.
+2021-05-08T13:49:22.608+0700 [ERROR] agent: yamux: Failed to write header: write tcp 127.0.0.1:54815->127.0.0.1:8300: use of closed network connection

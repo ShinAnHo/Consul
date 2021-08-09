@@ -1,0 +1,39 @@
+2021-06-14T16:47:21.862+0700 [WARN]  agent: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-06-14T16:47:21.863+0700 [WARN]  agent: bootstrap = true: do not enable unless necessary
+2021-06-14T16:47:21.904+0700 [WARN]  agent.auto_config: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-06-14T16:47:21.904+0700 [WARN]  agent.auto_config: bootstrap = true: do not enable unless necessary
+2021-06-14T16:47:21.932+0700 [INFO]  agent.server.raft: restored from snapshot: id=7-98309-1623123348495
+2021-06-14T16:47:22.011+0700 [INFO]  agent.server.raft: initial configuration: index=1 servers="[{Suffrage:Voter ID:f8ad9184-9bbb-d25e-6dc2-bd2030b111f1 Address:127.0.0.1:8300}]"
+2021-06-14T16:47:22.011+0700 [INFO]  agent.server.raft: entering follower state: follower="Node at 127.0.0.1:8300 [Follower]" leader=
+2021-06-14T16:47:22.015+0700 [INFO]  agent.server.serf.wan: serf: EventMemberJoin: MSI.microservice 127.0.0.1
+2021-06-14T16:47:22.015+0700 [WARN]  agent.server.serf.wan: serf: Failed to re-join any previously known node
+2021-06-14T16:47:22.016+0700 [INFO]  agent.server.serf.lan: serf: EventMemberJoin: MSI 127.0.0.1
+2021-06-14T16:47:22.016+0700 [INFO]  agent.router: Initializing LAN area manager
+2021-06-14T16:47:22.016+0700 [WARN]  agent.server.serf.lan: serf: Failed to re-join any previously known node
+2021-06-14T16:47:22.016+0700 [INFO]  agent.server: Adding LAN server: server="MSI (Addr: tcp/127.0.0.1:8300) (DC: microservice)"
+2021-06-14T16:47:22.016+0700 [INFO]  agent.server: Handled event for server in area: event=member-join server=MSI.microservice area=wan
+2021-06-14T16:47:22.023+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=udp
+2021-06-14T16:47:22.023+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=tcp
+2021-06-14T16:47:22.024+0700 [INFO]  agent: Starting server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-06-14T16:47:22.024+0700 [WARN]  agent: DEPRECATED Backwards compatibility with pre-1.9 metrics enabled. These metrics will be removed in a future version of Consul. Set `telemetry { disable_compat_1.9 = true }` to disable them.
+2021-06-14T16:47:22.025+0700 [INFO]  agent: started state syncer
+2021-06-14T16:47:29.140+0700 [ERROR] agent.anti_entropy: failed to sync remote state: error="No cluster leader"
+2021-06-14T16:47:30.802+0700 [WARN]  agent.server.raft: heartbeat timeout reached, starting election: last-leader=
+2021-06-14T16:47:30.802+0700 [INFO]  agent.server.raft: entering candidate state: node="Node at 127.0.0.1:8300 [Candidate]" term=8
+2021-06-14T16:47:30.808+0700 [INFO]  agent.server.raft: election won: tally=1
+2021-06-14T16:47:30.808+0700 [INFO]  agent.server.raft: entering leader state: leader="Node at 127.0.0.1:8300 [Leader]"
+2021-06-14T16:47:30.808+0700 [INFO]  agent.server: cluster leadership acquired
+2021-06-14T16:47:30.808+0700 [INFO]  agent.server: New leader elected: payload=MSI
+2021-06-14T16:47:31.044+0700 [INFO]  agent.leader: started routine: routine="federation state anti-entropy"
+2021-06-14T16:47:31.044+0700 [INFO]  agent.leader: started routine: routine="federation state pruning"
+2021-06-14T16:47:31.045+0700 [INFO]  agent.leader: started routine: routine="intermediate cert renew watch"
+2021-06-14T16:47:31.045+0700 [INFO]  agent.leader: started routine: routine="CA root pruning"
+2021-06-14T16:47:31.597+0700 [INFO]  agent: Synced node info
+2021-06-14T16:47:34.295+0700 [INFO]  agent: Newer Consul version available: new_version=1.9.6 current_version=1.9.5
+2021-06-14T20:06:30.098+0700 [WARN]  agent: error getting server health from server: server=MSI error="context deadline exceeded"
+2021-06-15T11:35:06.519+0700 [INFO]  agent.fsm: snapshot created: duration=0s
+2021-06-15T11:35:06.519+0700 [INFO]  agent.server.raft: starting snapshot up to: index=114694
+2021-06-15T11:35:06.519+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\8-114694-1623731706519.tmp
+2021-06-15T11:35:06.528+0700 [INFO]  agent.server.snapshot: reaping snapshot: path=D:\Software\consul\data\raft\snapshots\6-81924-1622483387467
+2021-06-15T11:35:06.529+0700 [INFO]  agent.server.raft: compacting logs: from=88070 to=104454
+2021-06-15T11:35:06.557+0700 [INFO]  agent.server.raft: snapshot complete up to: index=114694

@@ -1,0 +1,21 @@
+2021-08-05T09:20:11.565+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+2021-08-05T13:58:01.309+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-08-05T13:58:01.544+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-08-05T13:58:01.824+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-08-05T13:58:01.994+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-08-05T13:58:02.360+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-08-05T13:58:02.794+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-08-05T15:56:57.613+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-08-05T15:56:58.135+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-08-05T15:56:59.464+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-08-05T15:56:59.910+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-08-05T15:56:59.981+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-08-05T15:57:00.294+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-08-05T16:26:06.418+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-08-05T16:26:06.774+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-08-05T16:26:08.072+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-08-05T16:26:08.384+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-08-05T16:26:08.756+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-08-05T16:26:09.047+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-08-06T08:16:20.289+0700 [ERROR] agent: yamux: Failed to write header: write tcp 127.0.0.1:49154->127.0.0.1:8300: use of closed network connection
+2021-08-06T08:16:20.327+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"

@@ -1,0 +1,10 @@
+2021-06-24T21:28:36.629+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:64940 error="read tcp 127.0.0.1:8300->127.0.0.1:64940: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-06-24T21:28:37.212+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"
+2021-06-25T08:28:14.103+0700 [ERROR] agent: yamux: Failed to write header: write tcp 127.0.0.1:51861->127.0.0.1:8300: use of closed network connection
+2021-06-25T13:46:16.189+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-25T13:46:16.351+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-25T13:46:17.690+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-25T13:46:17.839+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-25T13:46:18.013+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-25T13:46:18.208+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-06-25T18:27:49.137+0700 [INFO]  agent: Newer Consul version available: new_version=1.10.0 current_version=1.9.5

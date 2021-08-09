@@ -1,0 +1,19 @@
+2021-06-25T22:07:06.888+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-25T22:07:07.076+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-25T22:07:08.430+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-25T22:07:08.580+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-25T22:07:08.846+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-25T22:07:09.031+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-06-25T22:13:02.359+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-25T22:13:02.591+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-25T22:13:03.975+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-25T22:13:04.146+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-25T22:13:04.399+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-25T22:13:04.582+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-06-25T22:19:45.982+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-25T22:19:46.161+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-25T22:19:47.699+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-25T22:19:47.849+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-25T22:19:48.146+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-25T22:19:48.313+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-06-26T09:15:39.397+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:65082 error="read tcp 127.0.0.1:8300->127.0.0.1:65082: wsarecv: An existing connection was forcibly closed by the remote host."

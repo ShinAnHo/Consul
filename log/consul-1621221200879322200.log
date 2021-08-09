@@ -1,0 +1,124 @@
+2021-05-17T10:13:20.880+0700 [WARN]  agent: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-05-17T10:13:20.880+0700 [WARN]  agent: bootstrap = true: do not enable unless necessary
+2021-05-17T10:13:20.923+0700 [WARN]  agent.auto_config: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-05-17T10:13:20.923+0700 [WARN]  agent.auto_config: bootstrap = true: do not enable unless necessary
+2021-05-17T10:13:20.945+0700 [INFO]  agent.server.raft: restored from snapshot: id=4-32771-1620797823365
+2021-05-17T10:13:20.975+0700 [INFO]  agent.server.raft: initial configuration: index=1 servers="[{Suffrage:Voter ID:f8ad9184-9bbb-d25e-6dc2-bd2030b111f1 Address:127.0.0.1:8300}]"
+2021-05-17T10:13:20.976+0700 [INFO]  agent.server.raft: entering follower state: follower="Node at 127.0.0.1:8300 [Follower]" leader=
+2021-05-17T10:13:20.979+0700 [INFO]  agent.server.serf.wan: serf: EventMemberJoin: MSI.microservice 127.0.0.1
+2021-05-17T10:13:20.979+0700 [WARN]  agent.server.serf.wan: serf: Failed to re-join any previously known node
+2021-05-17T10:13:20.980+0700 [INFO]  agent.server.serf.lan: serf: EventMemberJoin: MSI 127.0.0.1
+2021-05-17T10:13:20.980+0700 [INFO]  agent.router: Initializing LAN area manager
+2021-05-17T10:13:20.980+0700 [WARN]  agent.server.serf.lan: serf: Failed to re-join any previously known node
+2021-05-17T10:13:20.980+0700 [INFO]  agent.server: Handled event for server in area: event=member-join server=MSI.microservice area=wan
+2021-05-17T10:13:20.980+0700 [INFO]  agent.server: Adding LAN server: server="MSI (Addr: tcp/127.0.0.1:8300) (DC: microservice)"
+2021-05-17T10:13:20.985+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=udp
+2021-05-17T10:13:20.985+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=tcp
+2021-05-17T10:13:20.986+0700 [INFO]  agent: Starting server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-05-17T10:13:20.987+0700 [WARN]  agent: DEPRECATED Backwards compatibility with pre-1.9 metrics enabled. These metrics will be removed in a future version of Consul. Set `telemetry { disable_compat_1.9 = true }` to disable them.
+2021-05-17T10:13:20.987+0700 [INFO]  agent: started state syncer
+2021-05-17T10:13:27.575+0700 [WARN]  agent.server.raft: heartbeat timeout reached, starting election: last-leader=
+2021-05-17T10:13:27.575+0700 [INFO]  agent.server.raft: entering candidate state: node="Node at 127.0.0.1:8300 [Candidate]" term=5
+2021-05-17T10:13:27.581+0700 [INFO]  agent.server.raft: election won: tally=1
+2021-05-17T10:13:27.581+0700 [INFO]  agent.server.raft: entering leader state: leader="Node at 127.0.0.1:8300 [Leader]"
+2021-05-17T10:13:27.581+0700 [INFO]  agent.server: cluster leadership acquired
+2021-05-17T10:13:27.581+0700 [INFO]  agent.server: New leader elected: payload=MSI
+2021-05-17T10:13:27.653+0700 [INFO]  agent: Synced node info
+2021-05-17T10:13:27.655+0700 [INFO]  agent.leader: started routine: routine="federation state anti-entropy"
+2021-05-17T10:13:27.655+0700 [INFO]  agent.leader: started routine: routine="federation state pruning"
+2021-05-17T10:13:27.657+0700 [INFO]  agent.leader: started routine: routine="intermediate cert renew watch"
+2021-05-17T10:13:27.657+0700 [INFO]  agent.leader: started routine: routine="CA root pruning"
+2021-05-17T10:18:14.102+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T10:18:14.206+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="General API"
+2021-05-17T10:18:14.210+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T10:18:26.578+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T10:18:26.663+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="General API"
+2021-05-17T10:18:26.666+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T10:18:43.448+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T10:18:43.551+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="General API"
+2021-05-17T10:18:43.554+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T10:18:44.048+0700 [WARN]  agent: Failed to deregister service: service=IdentityServer error="Service "IdentityServer" does not exist"
+2021-05-17T10:18:44.169+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="Identity Server"
+2021-05-17T10:18:44.174+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T13:26:43.353+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-05-17T13:26:49.332+0700 [INFO]  agent: Deregistered service: service=BmiSampleCommon
+2021-05-17T13:52:17.652+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T13:52:17.774+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="General API"
+2021-05-17T13:52:17.778+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T13:52:18.245+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T13:52:18.349+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="Identity Server"
+2021-05-17T13:52:18.353+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T14:57:35.521+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T14:57:35.522+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T14:57:35.676+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="Identity Server"
+2021-05-17T14:57:35.679+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T14:57:35.692+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="General API"
+2021-05-17T14:57:35.695+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T14:58:20.508+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T14:58:20.574+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T14:58:20.643+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="General API"
+2021-05-17T14:58:20.647+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T14:58:20.690+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="Identity Server"
+2021-05-17T14:58:20.694+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T15:00:01.430+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T15:00:01.517+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="Identity Server"
+2021-05-17T15:00:01.520+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T15:00:06.525+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T15:00:06.525+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="General API"
+2021-05-17T15:00:06.529+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T15:00:26.225+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T15:00:39.549+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T15:00:52.445+0700 [WARN]  agent: Failed to deregister service: service=GeneralApi error="Service "GeneralApi" does not exist"
+2021-05-17T15:00:52.478+0700 [WARN]  agent: Failed to deregister service: service=IdentityServer error="Service "IdentityServer" does not exist"
+2021-05-17T15:00:52.567+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="General API"
+2021-05-17T15:00:52.572+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T15:00:52.612+0700 [WARN]  agent: Service name will not be discoverable via DNS due to invalid characters. Valid characters include all alpha-numerics and dashes.: service="Identity Server"
+2021-05-17T15:00:52.615+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T15:01:23.703+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T15:01:25.482+0700 [WARN]  agent: Failed to deregister service: service=BmiSampleCommon error="Service "BmiSampleCommon" does not exist"
+2021-05-17T15:01:29.772+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T15:01:44.524+0700 [WARN]  agent: Failed to deregister service: service=GeneralApi error="Service "GeneralApi" does not exist"
+2021-05-17T15:01:44.612+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T15:01:44.999+0700 [WARN]  agent: Failed to deregister service: service=IdentityServer error="Service "IdentityServer" does not exist"
+2021-05-17T15:01:45.143+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T15:07:55.200+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T15:07:55.318+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T15:07:55.833+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T15:07:55.978+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T16:21:24.833+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T16:21:31.558+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T16:31:40.368+0700 [WARN]  agent: Failed to deregister service: service=GeneralApi error="Service "GeneralApi" does not exist"
+2021-05-17T16:31:40.500+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T16:31:40.725+0700 [WARN]  agent: Failed to deregister service: service=IdentityServer error="Service "IdentityServer" does not exist"
+2021-05-17T16:31:40.870+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T17:16:58.434+0700 [WARN]  agent: Failed to deregister service: service=ProtectedApi error="Service "ProtectedApi" does not exist"
+2021-05-17T17:16:58.633+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-17T17:16:59.581+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T17:16:59.753+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T17:17:00.109+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T17:17:00.297+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T17:18:05.697+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-17T17:18:05.851+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-17T17:18:07.449+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T17:18:07.777+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T17:18:08.151+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T17:18:08.302+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T17:20:22.526+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-17T17:20:22.877+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-17T17:20:24.140+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T17:20:24.296+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T17:20:24.529+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T17:20:24.684+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T17:24:46.410+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-17T17:24:46.539+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-17T17:24:47.836+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T17:24:47.990+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T17:24:48.321+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T17:24:48.564+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-17T17:53:54.233+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-17T17:53:54.412+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-17T17:53:56.786+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-17T17:53:57.222+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-17T17:53:58.320+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-17T17:53:58.597+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-18T08:30:53.530+0700 [ERROR] agent: yamux: Failed to write header: write tcp 127.0.0.1:61588->127.0.0.1:8300: use of closed network connection

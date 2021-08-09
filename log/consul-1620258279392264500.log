@@ -1,0 +1,2 @@
+2021-05-06T06:44:38.546+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:63035 error="read tcp 127.0.0.1:8300->127.0.0.1:63035: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-05-06T06:44:39.386+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"

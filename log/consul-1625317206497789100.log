@@ -1,0 +1,7 @@
+2021-07-03T20:00:06.490+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"
+2021-07-04T10:22:00.494+0700 [INFO]  agent.fsm: snapshot created: duration=0s
+2021-07-04T10:22:00.497+0700 [INFO]  agent.server.raft: starting snapshot up to: index=163850
+2021-07-04T10:22:00.497+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\8-163850-1625368920497.tmp
+2021-07-04T10:22:00.526+0700 [INFO]  agent.server.snapshot: reaping snapshot: path=D:\Software\consul\data\raft\snapshots\8-131079-1624270622629
+2021-07-04T10:22:00.531+0700 [INFO]  agent.server.raft: compacting logs: from=137225 to=153610
+2021-07-04T10:22:00.650+0700 [INFO]  agent.server.raft: snapshot complete up to: index=163850

@@ -1,0 +1,2 @@
+2021-06-22T08:56:01.561+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:52607 error="read tcp 127.0.0.1:8300->127.0.0.1:52607: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-06-22T10:29:34.953+0700 [INFO]  agent: Newer Consul version available: new_version=1.9.6 current_version=1.9.5

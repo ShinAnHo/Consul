@@ -1,0 +1,31 @@
+2021-08-01T18:28:10.292+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"
+2021-08-02T12:50:56.015+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-08-02T12:50:56.418+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-08-02T12:50:57.902+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-08-02T12:50:58.045+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-08-02T12:50:58.574+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-08-02T12:50:58.761+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-08-02T13:14:00.470+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-08-02T13:14:00.606+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-08-02T13:14:01.830+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-08-02T13:14:01.980+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-08-02T13:14:02.323+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-08-02T13:14:02.476+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-08-02T14:15:27.723+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-08-02T14:15:27.858+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-08-02T14:15:29.119+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-08-02T14:15:29.365+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-08-02T14:15:29.585+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-08-02T14:15:29.726+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-08-02T15:14:25.866+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-08-02T15:14:26.374+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-08-02T15:14:27.657+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-08-02T15:14:27.766+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-08-02T15:14:28.122+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-08-02T15:14:28.304+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-08-02T15:16:42.123+0700 [INFO]  agent.fsm: snapshot created: duration=0s
+2021-08-02T15:16:42.123+0700 [INFO]  agent.server.raft: starting snapshot up to: index=229389
+2021-08-02T15:16:42.123+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\12-229389-1627892202123.tmp
+2021-08-02T15:16:42.132+0700 [INFO]  agent.server.snapshot: reaping snapshot: path=D:\Software\consul\data\raft\snapshots\8-196620-1626345592854
+2021-08-02T15:16:42.132+0700 [INFO]  agent.server.raft: compacting logs: from=202765 to=219149
+2021-08-02T15:16:42.185+0700 [INFO]  agent.server.raft: snapshot complete up to: index=229389

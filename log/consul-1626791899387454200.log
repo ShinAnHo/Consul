@@ -1,0 +1,40 @@
+2021-07-20T21:38:19.371+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:65499 error="read tcp 127.0.0.1:8300->127.0.0.1:65499: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-07-20T21:38:19.380+0700 [ERROR] agent.server: yamux: Failed to write header: write tcp 127.0.0.1:8300->127.0.0.1:65499: wsasend: An existing connection was forcibly closed by the remote host.
+2021-07-20T21:38:19.390+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"
+2021-07-21T07:49:55.287+0700 [ERROR] agent: yamux: Failed to write header: write tcp 127.0.0.1:63288->127.0.0.1:8300: use of closed network connection
+2021-07-21T15:23:57.221+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-21T15:23:57.374+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-21T15:25:57.161+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-21T15:25:57.249+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-21T16:26:19.359+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-21T16:26:19.496+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-21T16:26:23.720+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-21T16:26:23.815+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-21T16:28:31.280+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-21T16:28:31.447+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-21T16:28:34.821+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-21T16:28:34.926+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-21T16:29:16.384+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-21T16:29:16.523+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-21T16:29:21.086+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-21T16:29:21.168+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-21T16:56:50.946+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-21T16:56:51.053+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-21T16:57:11.385+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-21T16:57:11.518+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-21T17:26:05.127+0700 [INFO]  agent: Caught: signal=terminated
+2021-07-21T17:26:05.128+0700 [INFO]  agent: Graceful shutdown disabled. Exiting
+2021-07-21T17:26:05.129+0700 [INFO]  agent: Requesting shutdown
+2021-07-21T17:26:05.130+0700 [INFO]  agent.server: shutting down server
+2021-07-21T17:26:05.130+0700 [WARN]  agent.server.serf.lan: serf: Shutdown without a Leave
+2021-07-21T17:26:05.132+0700 [WARN]  agent.server.serf.wan: serf: Shutdown without a Leave
+2021-07-21T17:26:05.133+0700 [INFO]  agent.router.manager: shutting down
+2021-07-21T17:26:05.133+0700 [INFO]  agent.router.manager: shutting down
+2021-07-21T17:26:05.136+0700 [INFO]  agent: consul server down
+2021-07-21T17:26:05.137+0700 [INFO]  agent: shutdown complete
+2021-07-21T17:26:05.137+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=tcp
+2021-07-21T17:26:05.137+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=udp
+2021-07-21T17:26:05.138+0700 [INFO]  agent: Stopping server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-07-21T17:26:05.642+0700 [INFO]  agent: Waiting for endpoints to shut down
+2021-07-21T17:26:05.642+0700 [INFO]  agent: Endpoints down
+2021-07-21T17:26:05.642+0700 [INFO]  agent: Exit code: code=1

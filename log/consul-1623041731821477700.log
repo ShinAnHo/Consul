@@ -1,0 +1,12 @@
+2021-06-07T11:55:31.821+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-07T11:55:32.001+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-07T11:55:33.614+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-07T11:55:33.805+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-07T11:55:34.199+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-07T11:55:34.393+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-06-08T10:35:48.495+0700 [INFO]  agent.fsm: snapshot created: duration=0s
+2021-06-08T10:35:48.495+0700 [INFO]  agent.server.raft: starting snapshot up to: index=98309
+2021-06-08T10:35:48.495+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\7-98309-1623123348495.tmp
+2021-06-08T10:35:48.502+0700 [INFO]  agent.server.snapshot: reaping snapshot: path=D:\Software\consul\data\raft\snapshots\5-65540-1622032442667
+2021-06-08T10:35:48.503+0700 [INFO]  agent.server.raft: compacting logs: from=71685 to=88069
+2021-06-08T10:35:48.554+0700 [INFO]  agent.server.raft: snapshot complete up to: index=98309

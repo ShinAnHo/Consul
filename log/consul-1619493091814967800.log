@@ -1,0 +1,86 @@
+2021-04-27T10:11:31.815+0700 [WARN]  agent: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-04-27T10:11:31.817+0700 [WARN]  agent: bootstrap = true: do not enable unless necessary
+2021-04-27T10:11:31.948+0700 [WARN]  agent.auto_config: The 'ui' field is deprecated. Use the 'ui_config.enabled' field instead.
+2021-04-27T10:11:31.949+0700 [WARN]  agent.auto_config: bootstrap = true: do not enable unless necessary
+2021-04-27T10:11:32.136+0700 [INFO]  agent.server.raft: initial configuration: index=1 servers="[{Suffrage:Voter ID:f8ad9184-9bbb-d25e-6dc2-bd2030b111f1 Address:127.0.0.1:8300}]"
+2021-04-27T10:11:32.136+0700 [INFO]  agent.server.raft: entering follower state: follower="Node at 127.0.0.1:8300 [Follower]" leader=
+2021-04-27T10:11:32.147+0700 [INFO]  agent.server.serf.wan: serf: EventMemberJoin: MSI.microservice 127.0.0.1
+2021-04-27T10:11:32.148+0700 [WARN]  agent.server.serf.wan: serf: Failed to re-join any previously known node
+2021-04-27T10:11:32.154+0700 [INFO]  agent.server.serf.lan: serf: EventMemberJoin: MSI 127.0.0.1
+2021-04-27T10:11:32.154+0700 [WARN]  agent.server.serf.lan: serf: Failed to re-join any previously known node
+2021-04-27T10:11:32.154+0700 [INFO]  agent.router: Initializing LAN area manager
+2021-04-27T10:11:32.155+0700 [INFO]  agent.server: Adding LAN server: server="MSI (Addr: tcp/127.0.0.1:8300) (DC: microservice)"
+2021-04-27T10:11:32.155+0700 [INFO]  agent.server: Handled event for server in area: event=member-join server=MSI.microservice area=wan
+2021-04-27T10:11:32.175+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=tcp
+2021-04-27T10:11:32.176+0700 [INFO]  agent: Started DNS server: address=127.0.0.1:8600 network=udp
+2021-04-27T10:11:32.179+0700 [INFO]  agent: Starting server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-04-27T10:11:32.180+0700 [WARN]  agent: DEPRECATED Backwards compatibility with pre-1.9 metrics enabled. These metrics will be removed in a future version of Consul. Set `telemetry { disable_compat_1.9 = true }` to disable them.
+2021-04-27T10:11:32.180+0700 [INFO]  agent: started state syncer
+2021-04-27T10:11:39.397+0700 [ERROR] agent.anti_entropy: failed to sync remote state: error="No cluster leader"
+2021-04-27T10:11:41.183+0700 [WARN]  agent.server.raft: heartbeat timeout reached, starting election: last-leader=
+2021-04-27T10:11:41.183+0700 [INFO]  agent.server.raft: entering candidate state: node="Node at 127.0.0.1:8300 [Candidate]" term=3
+2021-04-27T10:11:41.188+0700 [INFO]  agent.server.raft: election won: tally=1
+2021-04-27T10:11:41.188+0700 [INFO]  agent.server.raft: entering leader state: leader="Node at 127.0.0.1:8300 [Leader]"
+2021-04-27T10:11:41.188+0700 [INFO]  agent.server: cluster leadership acquired
+2021-04-27T10:11:41.188+0700 [INFO]  agent.server: New leader elected: payload=MSI
+2021-04-27T10:11:41.642+0700 [INFO]  agent.leader: started routine: routine="federation state anti-entropy"
+2021-04-27T10:11:41.643+0700 [INFO]  agent.leader: started routine: routine="federation state pruning"
+2021-04-27T10:11:43.042+0700 [INFO]  agent: Synced node info
+2021-04-27T11:22:07.278+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T11:22:07.523+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T11:23:16.582+0700 [ERROR] agent.http: Request error: method=GET url=/v1/discovery-chain/BmiSampleAdmin?dc=microservice from=127.0.0.1:65352 error="Connect must be enabled in order to use this endpoint"
+2021-04-27T11:35:57.957+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T11:35:58.170+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T11:46:25.082+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T11:46:25.087+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T11:46:48.686+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T11:46:48.983+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T11:50:37.177+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T11:50:37.480+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T11:52:54.205+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T11:52:54.517+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T12:49:32.081+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T12:49:32.337+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T13:20:53.720+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T13:20:54.053+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T13:22:58.376+0700 [ERROR] agent.http: Request error: method=GET url=/v1/discovery-chain/BmiSampleAdmin?dc=microservice from=127.0.0.1:53660 error="Connect must be enabled in order to use this endpoint"
+2021-04-27T13:23:06.959+0700 [ERROR] agent.http: Request error: method=GET url=/v1/connect/intentions?dc=microservice&filter=SourceName%20%3D%3D%20%22BmiSampleAdmin%22%20or%20DestinationName%20%3D%3D%20%22BmiSampleAdmin%22%20or%20SourceName%20%3D%3D%20%22*%22%20or%20DestinationName%20%3D%3D%20%22*%22 from=127.0.0.1:53656 error="Connect must be enabled in order to use this endpoint"
+2021-04-27T13:23:48.016+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T13:23:48.295+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T13:56:50.555+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T13:56:50.799+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T14:11:13.314+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T14:11:13.580+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T14:12:03.419+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T14:12:03.708+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T14:14:38.864+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T14:14:39.114+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T14:15:07.565+0700 [ERROR] agent.http: Request error: method=GET url=/v1/discovery-chain/BmiSampleAdmin?dc=microservice from=127.0.0.1:55522 error="Connect must be enabled in order to use this endpoint"
+2021-04-27T14:15:58.429+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T14:15:58.712+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T14:16:40.785+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T14:16:41.100+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T14:19:45.816+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T14:19:46.085+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T14:20:08.520+0700 [ERROR] agent.http: Request error: method=GET url=/v1/connect/intentions?dc=microservice from=127.0.0.1:55847 error="Connect must be enabled in order to use this endpoint"
+2021-04-27T14:20:16.531+0700 [ERROR] agent.http: Request error: method=GET url=/v1/connect/intentions?dc=microservice&filter=SourceName%20%3D%3D%20%22BmiSampleAdmin%22%20or%20DestinationName%20%3D%3D%20%22BmiSampleAdmin%22%20or%20SourceName%20%3D%3D%20%22*%22%20or%20DestinationName%20%3D%3D%20%22*%22 from=127.0.0.1:55844 error="Connect must be enabled in order to use this endpoint"
+2021-04-27T14:25:34.180+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-27T14:25:34.482+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-27T14:25:54.741+0700 [ERROR] agent.http: Request error: method=GET url=/v1/discovery-chain/BmiSampleAdmin?dc=microservice from=127.0.0.1:56167 error="Connect must be enabled in order to use this endpoint"
+2021-04-27T14:35:27.081+0700 [INFO]  agent: Caught: signal=interrupt
+2021-04-27T14:35:27.082+0700 [INFO]  agent: Graceful shutdown disabled. Exiting
+2021-04-27T14:35:27.082+0700 [INFO]  agent: Requesting shutdown
+2021-04-27T14:35:27.084+0700 [INFO]  agent.server: shutting down server
+2021-04-27T14:35:27.084+0700 [WARN]  agent.server.serf.lan: serf: Shutdown without a Leave
+2021-04-27T14:35:27.084+0700 [ERROR] agent.server: error performing anti-entropy sync of federation state: error="context canceled"
+2021-04-27T14:35:27.086+0700 [WARN]  agent.server.serf.wan: serf: Shutdown without a Leave
+2021-04-27T14:35:27.088+0700 [INFO]  agent.router.manager: shutting down
+2021-04-27T14:35:27.088+0700 [INFO]  agent.router.manager: shutting down
+2021-04-27T14:35:27.089+0700 [INFO]  agent: consul server down
+2021-04-27T14:35:27.089+0700 [INFO]  agent: shutdown complete
+2021-04-27T14:35:27.089+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=tcp
+2021-04-27T14:35:27.090+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=udp
+2021-04-27T14:35:27.090+0700 [INFO]  agent: Stopping server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-04-27T14:35:27.592+0700 [INFO]  agent: Waiting for endpoints to shut down
+2021-04-27T14:35:27.592+0700 [INFO]  agent: Endpoints down
+2021-04-27T14:35:27.592+0700 [INFO]  agent: Exit code: code=1

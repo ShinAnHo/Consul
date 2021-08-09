@@ -1,0 +1,18 @@
+2021-06-12T16:55:49.447+0700 [INFO]  agent: Newer Consul version available: new_version=1.9.6 current_version=1.9.5
+2021-06-12T22:53:23.480+0700 [INFO]  agent: Caught: signal=terminated
+2021-06-12T22:53:23.492+0700 [INFO]  agent: Graceful shutdown disabled. Exiting
+2021-06-12T22:53:23.492+0700 [INFO]  agent: Requesting shutdown
+2021-06-12T22:53:23.492+0700 [INFO]  agent.server: shutting down server
+2021-06-12T22:53:23.492+0700 [WARN]  agent.server.serf.lan: serf: Shutdown without a Leave
+2021-06-12T22:53:23.492+0700 [ERROR] agent.server: error performing anti-entropy sync of federation state: error="context canceled"
+2021-06-12T22:53:23.494+0700 [WARN]  agent.server.serf.wan: serf: Shutdown without a Leave
+2021-06-12T22:53:23.495+0700 [INFO]  agent.router.manager: shutting down
+2021-06-12T22:53:23.495+0700 [INFO]  agent.router.manager: shutting down
+2021-06-12T22:53:23.495+0700 [INFO]  agent: consul server down
+2021-06-12T22:53:23.495+0700 [INFO]  agent: shutdown complete
+2021-06-12T22:53:23.495+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=tcp
+2021-06-12T22:53:23.495+0700 [INFO]  agent: Stopping server: protocol=DNS address=127.0.0.1:8600 network=udp
+2021-06-12T22:53:23.496+0700 [INFO]  agent: Stopping server: address=127.0.0.1:8500 network=tcp protocol=http
+2021-06-12T22:53:24.009+0700 [INFO]  agent: Waiting for endpoints to shut down
+2021-06-12T22:53:24.009+0700 [INFO]  agent: Endpoints down
+2021-06-12T22:53:24.009+0700 [INFO]  agent: Exit code: code=1

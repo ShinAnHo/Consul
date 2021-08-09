@@ -1,0 +1,5 @@
+2021-07-17T20:18:07.243+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:58131 error="read tcp 127.0.0.1:8300->127.0.0.1:58131: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-07-17T21:32:57.976+0700 [INFO]  agent: Newer Consul version available: new_version=1.10.1 current_version=1.9.5
+2021-07-18T10:24:44.592+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:54667 error="read tcp 127.0.0.1:8300->127.0.0.1:54667: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-07-18T19:06:59.562+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:64664 error="read tcp 127.0.0.1:8300->127.0.0.1:64664: wsarecv: An existing connection was forcibly closed by the remote host."
+2021-07-18T19:07:00.279+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"

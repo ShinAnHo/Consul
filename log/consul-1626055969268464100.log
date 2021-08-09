@@ -1,0 +1,2 @@
+2021-07-12T09:12:48.500+0700 [WARN]  agent: error getting server health from server: server=MSI error="context deadline exceeded"
+2021-07-12T20:15:01.929+0700 [INFO]  agent: Newer Consul version available: new_version=1.10.0 current_version=1.9.5

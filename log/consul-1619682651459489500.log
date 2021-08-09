@@ -1,0 +1,14 @@
+2021-04-29T14:50:51.459+0700 [INFO]  agent: Deregistered service: service=BmiSampleAdmin
+2021-04-29T14:50:51.747+0700 [INFO]  agent: Synced service: service=BmiSampleAdmin
+2021-04-29T14:50:53.217+0700 [INFO]  agent: Deregistered service: service=BmiSampleCommon
+2021-04-29T14:50:53.509+0700 [INFO]  agent: Synced service: service=BmiSampleCommon
+2021-04-29T15:21:32.808+0700 [INFO]  agent.fsm: snapshot created: duration=1.9108ms
+2021-04-29T15:21:32.809+0700 [INFO]  agent.server.raft: starting snapshot up to: index=16384
+2021-04-29T15:21:32.809+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\4-16384-1619684492809.tmp
+2021-04-29T15:21:32.819+0700 [INFO]  agent.server.raft: compacting logs: from=1 to=6144
+2021-04-29T15:21:32.847+0700 [INFO]  agent.server.raft: snapshot complete up to: index=16384
+2021-04-30T10:50:15.461+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"
+2021-04-30T14:00:53.887+0700 [WARN]  agent: Failed to deregister service: service=GeneralApi error="Service "GeneralApi" does not exist"
+2021-04-30T14:00:54.034+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-04-30T14:02:23.173+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-04-30T14:02:23.252+0700 [INFO]  agent: Synced service: service=GeneralApi

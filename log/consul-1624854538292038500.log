@@ -1,0 +1,27 @@
+2021-06-28T11:28:58.292+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-28T11:28:58.557+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-28T11:28:59.944+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-28T11:29:00.231+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-28T11:29:00.263+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-28T11:29:00.521+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-06-28T15:27:43.541+0700 [INFO]  agent.fsm: snapshot created: duration=2.9113ms
+2021-06-28T15:27:43.541+0700 [INFO]  agent.server.raft: starting snapshot up to: index=147464
+2021-06-28T15:27:43.542+0700 [INFO]  agent.server.snapshot: creating new snapshot: path=D:\Software\consul\data\raft\snapshots\8-147464-1624868863542.tmp
+2021-06-28T15:27:43.555+0700 [INFO]  agent.server.snapshot: reaping snapshot: path=D:\Software\consul\data\raft\snapshots\8-114694-1623731706519
+2021-06-28T15:27:43.556+0700 [INFO]  agent.server.raft: compacting logs: from=120840 to=137224
+2021-06-28T15:27:43.608+0700 [INFO]  agent.server.raft: snapshot complete up to: index=147464
+2021-06-28T16:24:42.669+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-28T16:24:42.831+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-28T16:24:44.955+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-28T16:24:45.108+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-28T16:24:45.792+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-28T16:24:45.975+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-06-28T19:08:34.644+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-28T19:08:34.872+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-28T19:08:35.366+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-28T19:08:35.629+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-28T19:08:35.907+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-28T19:08:36.095+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-06-29T08:47:15.287+0700 [WARN]  agent.server: yamux: failed to send ping reply: session shutdown
+2021-06-29T08:47:15.291+0700 [ERROR] agent.server: yamux: Failed to write header: write tcp 127.0.0.1:8300->127.0.0.1:52826: use of closed network connection
+2021-06-29T08:47:15.390+0700 [ERROR] agent: Failed to check for updates: error="Get "https://checkpoint-api.hashicorp.com/v1/check/consul?arch=amd64&os=windows&signature=96c882e6-835b-46e4-1b1c-f24c58c8ec45&version=1.9.5": dial tcp: lookup checkpoint-api.hashicorp.com: no such host"

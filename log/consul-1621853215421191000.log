@@ -1,0 +1,12 @@
+2021-05-24T17:46:55.421+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-24T17:46:55.564+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-24T17:46:55.952+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-24T17:46:56.163+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-24T17:46:56.708+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-24T17:46:56.893+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-05-25T15:07:47.214+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-05-25T15:07:47.297+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-05-25T15:07:47.376+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-05-25T15:07:47.453+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-05-25T15:07:47.964+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-05-25T15:07:48.183+0700 [INFO]  agent: Synced service: service=IdentityServer

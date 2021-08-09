@@ -1,0 +1,12 @@
+2021-07-13T14:45:52.153+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-13T14:45:52.370+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-13T14:45:52.686+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-13T14:45:52.890+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-13T15:04:58.130+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-07-13T15:04:58.293+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-07-13T15:04:59.516+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-07-13T15:04:59.641+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-07-13T15:04:59.921+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-07-13T15:05:00.095+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-07-13T21:11:04.539+0700 [INFO]  agent: Newer Consul version available: new_version=1.10.0 current_version=1.9.5
+2021-07-14T09:25:04.305+0700 [ERROR] agent.server.rpc: multiplex conn accept failed: conn=from=127.0.0.1:58523 error="read tcp 127.0.0.1:8300->127.0.0.1:58523: wsarecv: An existing connection was forcibly closed by the remote host."

@@ -1,0 +1,13 @@
+2021-06-15T18:26:18.105+0700 [INFO]  agent: Newer Consul version available: new_version=1.9.6 current_version=1.9.5
+2021-06-16T17:53:41.039+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-16T17:53:41.243+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-16T17:53:42.157+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-16T17:53:42.324+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-16T17:53:42.794+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-16T17:53:43.030+0700 [INFO]  agent: Synced service: service=IdentityServer
+2021-06-16T17:56:35.967+0700 [INFO]  agent: Deregistered service: service=ProtectedApi
+2021-06-16T17:56:36.133+0700 [INFO]  agent: Synced service: service=ProtectedApi
+2021-06-16T17:56:37.311+0700 [INFO]  agent: Deregistered service: service=GeneralApi
+2021-06-16T17:56:37.577+0700 [INFO]  agent: Synced service: service=GeneralApi
+2021-06-16T17:56:37.781+0700 [INFO]  agent: Deregistered service: service=IdentityServer
+2021-06-16T17:56:37.908+0700 [INFO]  agent: Synced service: service=IdentityServer
